@@ -162,12 +162,10 @@ body {
   margin: 0 auto;   /* center it */
   display: block;
 }
-
-
 #Methods .title {
-  margin-bottom: 2 !important;
+  margin-bottom: 0.5rem !important;
 }
 #Methods .content img {
-  margin-top: 2 !important;
+  margin-top: 0.5rem !important;
 }
 
