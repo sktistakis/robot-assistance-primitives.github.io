@@ -18,6 +18,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
@@ -191,5 +192,21 @@
   </div>
 </footer>
 
+  
+<script src="./static/js/bulma-carousel.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    bulmaCarousel.attach('#results-carousel', {
+      slidesToScroll: 1,
+      slidesToShow:   1,
+      loop:           true,
+      autoplay:       true,
+      pauseOnHover:   false,
+    });
+  });
+</script>
+
+
+  
 </body>
 </html>
