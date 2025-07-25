@@ -156,16 +156,9 @@ body {
   border-radius: 5px;
 }
 
+#Methods .title {
+  margin-bottom: 0 !important;
+}
 #Methods .content img {
-  margin-top: 0 !important;  /* Remove top margin from image */
-  display: block;
-}
-
-#Methods .content {
-  margin-top: 0 !important;  /* Remove container's extra margin */
-  padding-top: 0 !important;
-}
-
-#Methods .content p:first-of-type {
-  margin-top: 10px;  /* Add a small margin before text */
+  margin-top: 0 !important;
 }
