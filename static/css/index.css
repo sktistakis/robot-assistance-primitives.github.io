@@ -156,9 +156,18 @@ body {
   border-radius: 5px;
 }
 
+#results-carousel .item img {
+  max-width: 70%;   /* scale down to 70% of container width */
+  height: auto;
+  margin: 0 auto;   /* center it */
+  display: block;
+}
+
+
 #Methods .title {
   margin-bottom: 0 !important;
 }
 #Methods .content img {
   margin-top: 0 !important;
 }
+
